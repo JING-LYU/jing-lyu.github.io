@@ -1,0 +1,40 @@
+---
+title: "Welcome to Jing(Olivia)'s Website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+
+---
+</br>
+
+<div align="center"><img src="images/welcome2.png" style="width:75%"></div>
+
+</br>
+
+# About me
+
+Hi, my name is **Jing Lyu**, you can call me Olivia. I am a first-year MS student at **Columbia university mailman school of public health**. My major is the **biostatistics, health data science track**. 
+<div align="center"><img src="images/mailman.png" style="width:25%" ></div>
+
+I have soild knowlwdge in data by courses, internship and research. (Want to learn more about my experiences? [Click here](CV.html)). I would like to hammer at practicing data analysis skills on healthcare industry for digging through deep information connections, finding patterns for future evaluation and sharing stories about what data is saying.
+
+</br>
+
+# My projects in DS and biostatistics
+
+You can view my projects [here](projects.html)here or click the `My projects` buttom on the site navigation bar.
+
+</br>
+
+# Contact Me
+
+Feel free to contact me in any methods below!
+
+* Email: jl6049@cumc.columbia.edu
+    
+    You can also click the "letter" button in the in the upper right corner to email me
+
+* [LinkedIn](https://www.linkedin.com/in/jing-lyu-26a5231ba/)
+
+* [Github](http://github.com/JING-LYU/)

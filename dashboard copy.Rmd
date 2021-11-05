@@ -1,0 +1,94 @@
+
+---
+title: "dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source_code: embed
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+
+```{r}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+
+```
+
+NYC airbanb data
+
+```{r}
+data(instacart)
+instacart =
+  instacart %>% 
+  janitor::clean_names()
+```
+
+
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+plotA =
+  instacart %>%
+  count(aisle) %>% 
+  filter(n > 10000) %>%
+  mutate(
+    aisle = fct_reorder(aisle,n)
+    ) %>% #reorder/ranking
+   mutate(
+    stratify = case_when(
+      n <=  20000 ~ "under 20000",
+      (n > 20000)&(n < 40000) ~ "20000 to 40000",
+      n > 40000      ~ "above 40000"
+  )) %>% 
+  ggplot(aes(x = aisle, y = n, fill = stratify)) +
+  geom_bar(stat = "identity") +
+  coord_flip() +
+  labs(
+    title = "The Number of Items Ordered in Each Aisle",
+    x = "The number of items",
+    y = "Aisle",
+  )
+
+ #ggplotly(plotA) 
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+set.seed(1)
+plotB =
+  instacart %>%
+  sample_n(1000) %>% 
+  filter(aisle_id < 20) %>% 
+  ggplot(aes(x = aisle, y = add_to_cart_order, fill = department)) +
+  geom_boxplot() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+ 
+
+ #ggplotly(plotB) 
+```
+
+### Chart C
+
+```{r}
+plotC =
+  instacart %>%
+  filter(aisle_id < 50)
+ 
+
+ #ggplotly(plotC) 
+```

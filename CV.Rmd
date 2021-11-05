@@ -1,0 +1,87 @@
+---
+# title: "CV"
+author: "LYU JING"
+date: "11/4/2021"
+output: html_document
+---
+
+<div align="center"><font size='50'> JING (Olivia) LYU </font></div>
+
+<div align="center">+1 (332) 250-7157  |  jl6049@cumc.columbia.edu  |  New York, NY, USA</div>
+</br>
+
+## EDUCATION
+
+### Columbia University 
+M.S. in Biostatistics (Public Health Data Science Track)	Jun. 2023 (expected)
+
+Courses: Data science, SAS programming, Biostatistics Methods, Advanced probability
+	
+### Zhejiang University 
+B.S. in Horticultural Science (Minor in Economics), GPA 3.85/4.00	Jun. 2021
+
+Courses: Data mining, Mathematical statistics, Stochastic process, Bioinformatics, Genetics
+	
+</br>	
+
+## WORK EXPERIENCE
+
+### In-pool Part-Time Assistant
+
+**Boston Consulting Group**  
+May 2021 – Present
+
+* Gained insights into the Pharma sector in 5 healthcare consulting cases related to drug marketing strategy, pharmaceutical company operational structure and industry trends.
+
+* Generated qualitative and quantitative insights which were leveraged by Senior Consultant in addressing client issues
+
+* Exceeded expectations in diverse roles, including desk research, cold calling, data management by conducting quality communications.
+
+### Data Analyst Intern  
+
+**Hisense Research and Develop Center-Big Data Department**   
+Feb. 2020 – May 2020
+
+* Engaged in an intelligent transportation big data project and utilized time series, RNN-LSTM, and Facebook prophet models to predict future traffic flow based on already collected data, using Python for model building and SQL for data management.
+
+* Applied a patent (Accepted time: 10/09/2020) with a topic of “A special date traffic forecasting method based on the Facebook prophet model”
+
+</br>
+
+## RESEARCH EXPERIENCE
+
+### Zhejiang University School of Medicine
+**Project: Relation of nutrition intake to physical frailty in old adults**  
+Dec. 2020 –  Jun. 2021
+
+* Completed data cleaning for a public database with up to 20 years of unruly data and built models for survival analysis using SAS to complete a prospective study about relations between nutrition and physical frailty in old adults.
+
+* Developed reliable conclusions that specific nutrition components are protective to physical frailty, which will be included in a Lab publication on research findings
+
+
+
+### North Carolina State University Department of Statistics
+**Project: Biases in machine learning algorithms in mobile loan application**	
+Jun. 2020 – Dec. 2020
+
+* Categorized bias into two types, algorithm-based biases and taste-based biases, and simulated the process of generating these two biases by coding in order to restore the potential bias in the loan process.
+* Conducted simulations with three machine learning algorithms (i.e. logistic regression, random forest, and XGboost) via Python to quantify difference of final bias when using models with different levels of complexity.
+* Presented results by drawing plots on a poster and displayed it on the NCSU GEAR program website
+
+</br>
+	
+## ACTIVITIES	
+**President – Zhejiang University Red Cross Student Union**                                   
+Oct. 2017 – Sep. 2019
+
+* Cooperated with university hospital to arranged semi-annual blood donation event
+* Organized fund-raising event and raised up to $50,000 to help over 77 students and faculties who got paroxysmal diseases
+* Coordinated with knowledge promotion activities about HIV prevention on the campus
+
+</br>
+
+## TECHNIQUES & SKILL
+* Programming Language: R( ggplot2, dplyr), Python (Pandas, Numpy, Sklearn), SQL, SAS, Java
+* Data Analytics: Prediction Modeling, Statistical Testing, Visualization
+
+
