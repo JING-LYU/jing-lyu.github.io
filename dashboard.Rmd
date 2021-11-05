@@ -20,7 +20,7 @@ library(plotly)
 
 ```
 
-NYC airbanb data
+The Instacart Online Grocery Shopping Dataset 2017
 
 ```{r}
 data(instacart)
@@ -87,7 +87,7 @@ ggplotly(plotB)
 ```{r}
 set.seed(1)
 plotC =
-  instacart %>%
+  instacart %>%l
   sample_n(1000) %>% 
   filter(order_dow == 1) %>% 
   ggplot(aes(x = order_number, y = order_hour_of_day, color = department)) +
