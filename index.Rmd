@@ -23,7 +23,7 @@ I have soild knowlwdge in data by courses, internship and research. (Want to lea
 
 # My projects in DS and biostatistics
 
-You can view my projects [here](projects.html)here or click the `My projects` buttom on the site navigation bar.
+You can view my projects [here](projects.html) or click the `My projects` buttom on the site navigation bar.
 
 </br>
 

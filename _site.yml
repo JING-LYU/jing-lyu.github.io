@@ -5,6 +5,8 @@ navbar:
   right:
     - text: "CV"
       href: CV.html
+    - text: "projects"
+      href: projects.html
     - text: "Dashboard"
       href: dashboard.html
     - icon: fa-envelope fa-lg

@@ -1,8 +1,9 @@
 ---
 # title: "CV"
-author: "LYU JING"
-date: "11/4/2021"
-output: html_document
+output: 
+  html_document:
+    toc: true
+    toc_float: true
 ---
 
 <div align="center"><font size='50'> JING (Olivia) LYU </font></div>
