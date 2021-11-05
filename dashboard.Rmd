@@ -60,7 +60,7 @@ plotA =
     y = "Aisle",
   )
 
- #ggplotly(plotA) 
+ggplotly(plotA) 
 ```
 
 Column {data-width=350}
@@ -79,16 +79,20 @@ plotB =
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
  
 
- #ggplotly(plotB) 
+ggplotly(plotB) 
 ```
 
 ### Chart C
 
 ```{r}
+set.seed(1)
 plotC =
   instacart %>%
-  filter(aisle_id < 50)
+  sample_n(1000) %>% 
+  filter(order_dow == 1) %>% 
+  ggplot(aes(x = order_number, y = order_hour_of_day, color = department)) +
+  geom_point()
  
 
- #ggplotly(plotC) 
+ggplotly(plotC) 
 ```
