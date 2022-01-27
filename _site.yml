@@ -7,8 +7,13 @@ navbar:
       href: CV.html
     - text: "projects"
       href: projects.html
-    - text: "Dashboard"
-      href: dashboard.html
+    - text: "Dashboard example"
+      menu:
+        - text: "Normal dashboard"
+          href: dashboard.html
+        - text: "Shiny Dashboard"
+          href: https://yiqunjin.shinyapps.io/shiny_dashboard/
+      
     - icon: fa-envelope fa-lg
       href: mailto:<jl6049@cumc.columbia.edu>
     - icon: fa-github fa-lg

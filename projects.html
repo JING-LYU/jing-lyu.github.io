@@ -11,7 +11,7 @@
 
 
 
-<title>projects</title>
+<title>Projects</title>
 
 <script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
@@ -328,8 +328,20 @@ div.tocify {
 <li>
   <a href="projects.html">projects</a>
 </li>
-<li>
-  <a href="dashboard.html">Dashboard</a>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Dashboard example
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="dashboard.html">Normal dashboard</a>
+    </li>
+    <li>
+      <a href="https://yiqunjin.shinyapps.io/shiny_dashboard/">Shiny Dashboard</a>
+    </li>
+  </ul>
 </li>
 <li>
   <a href="mailto:&lt;jl6049@cumc.columbia.edu&gt;">
@@ -352,12 +364,28 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">projects</h1>
+<h1 class="title toc-ignore">Projects</h1>
 
 </div>
 
 
-<p>Coming Soon…</p>
+<p><br></p>
+<div id="a-linear-regression-model-of-us-crime-rate-prediction" class="section level3">
+<h3>1. A Linear Regression Model of US Crime Rate Prediction</h3>
+<p><a href="https://github.com/JING-LYU/bm_final_project">Project Webisite</a>. <br> In this project, we aim to build regression models based on a set of demographic variables to estimate county-level crime rates. After an exploratory analysis of the variables on their distributions and correlations, we derived more meaningful variables by manipulating the existing ones, removed outlier values, and implemented several variable selection methods. Using the selected variables, we trained a linear regression model, elaborated on the model by adding several interactive terms, and did cross-validations. All 3 resulting models have achieved a good estimation of the training set. We selected the third model (adjusted R-square: 0.542, RMSE: 16.46, RMSPE: 11.90) as the final model, as it has the best prediction on testing set. Further studies can be done on correcting the dataset using external data sources, as well as using more sophisticated non-linear models.</p>
+<p><br></p>
+</div>
+<div id="saving-as-a-non-smoker-exploring-relationship-between-smoking-and-health-insurance" class="section level3">
+<h3>2.Saving as a non-smoker? Exploring relationship between smoking and health insurance</h3>
+<p><a href="https://wyshanw.github.io/final_project/">Project Webisite</a>. <br> We notice that a lot of smokers complain about their insurance charges. In fact, it is known that the health insurance companies stratify smokers and non-smokers and assign different insurance prices according to smoking status.</p>
+<p>Since health insurance is vital for people’s well-being, and the cost is the main reason that stops people from buying insurance, we are interested in exploring the relationship between smoking and health insurance. To be specific, our research topic can be divided into three research questions. We would like to investigate:</p>
+<ul>
+<li>If smokers tend to get insurance;</li>
+<li>What type of insurance they prefer;</li>
+<li>Factors that affect insurance purchasing and premiums.</li>
+</ul>
+<p>Another reason that limits access to insurance is lack of information. As such, mapping of health consulting centers, health insurance carriers locations, and medicaid provider location in NYC, along with their contact information and operation hours, are also provided for readers who need more information for insurance and health advice.</p>
+</div>
 
 
 
